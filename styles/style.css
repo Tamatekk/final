@@ -1,3 +1,50 @@
+body{
+    font-family: Montserrat;
+    width: 640px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    margin: auto
+}
+p{
+    text-align: left;
+}
+label{
+    text-align: left;
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+      width: 80%;
+      text-align: center;
+      margin: auto;
+      align-items: center;
+    }
+    header{
+        text-align: center;
+        margin: auto;
+        align-items: center;
+       width: 60%
+    }
+    img{
+       width: 100%
+    }
+    div input{
+    align-items: center;
+    }
+    button{
+        position: relative
+    }
+    p{
+        text-align: center;
+    }
+    label{
+        text-align: center;
+    }
+
+  }
+
 div img {
     width: 20%;
 }
+
